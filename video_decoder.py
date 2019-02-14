@@ -80,9 +80,9 @@ class VideoDecoder:
 if __name__ == "__main__":
     vd = VideoDecoder()
     #
-    vid_input = "/Users/jerrywp/Downloads/Youtube/2.mp4"
+    vid_input = "FULL_PATH_TO_VIDEO"
     #
-    output_name = "Human2"
+    output_name = "tmp_vid_output"
     #
     vd.decode_video(vid_dir=vid_input, output_dir=output_name, frame_save_rate=10)
 
